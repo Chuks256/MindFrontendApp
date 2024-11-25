@@ -15,14 +15,13 @@ margin-top:200px;
 
 // splash screen page 
 const SplashScreen=()=>{
-    // const navigate=useNavigate();
-    // useEffect(()=>{
-    //     setInterval(async()=>{
-    //         await navigate("/onboard");
-    //     },6000)
-    //     return ()=>clearInterval()
-    // },[])
-
+    const navigate=useNavigate();
+    useEffect(()=>{
+        setInterval(async()=>{
+            await navigate("/onboard");
+        },6000)
+        return ()=>clearInterval()
+    },[])
 
     return(
         <Container>
