@@ -191,7 +191,7 @@ const AuthenticationScreen=()=>{
             {/* passcode container section */}
             <PasscodeWrapperContainer>
             <PassCodeParentContainer>
-                <PassCodeView value={getInputValue} maxLength="4" type="password" readonly  placeholder="----" />
+                <PassCodeView value={getInputValue} maxLength="4" type="password" readOnly  placeholder="----" />
                 <PassCodeSubContainer>
                 {
                  passCodeBtnData.map((data)=>(
