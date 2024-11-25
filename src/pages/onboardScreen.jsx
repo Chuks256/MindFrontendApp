@@ -11,7 +11,7 @@ align-items:center;
 justify-content:center;
 flex-direction:column;
 padding:50px;
-gap:270px;
+gap:230px;
 `;
 
 const SplashLogoContainer = styled.div`
@@ -39,7 +39,7 @@ text-align:center;
 
 const OnboardBtn=styled.button`
 font-size:13px;
-padding:10px;
+padding:12px;
 width:300px;
 border-radius:5px;
 background:var(--global-text-color);
