@@ -6,6 +6,8 @@
 
 *{
   font-family: "Mind-typeface";
+  user-select: none;
+  max-zoom: 1.0;
 }
 
 :root{
