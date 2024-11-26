@@ -127,7 +127,7 @@ const PostComponent=()=>{
 
     const [getHeartToggleState,setHeartToggleState]=useState(false);
 
-    const handleReactionAction=()=>{
+    const handleReactionAction=(ev)=>{
         if(getHeartToggleState===false){
             setHeartToggleState(true);
         }
@@ -135,7 +135,6 @@ const PostComponent=()=>{
         if(getHeartToggleState===true){
             setHeartToggleState(false);
         }
-
     }
 
     return(

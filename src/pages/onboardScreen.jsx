@@ -1,6 +1,6 @@
 
 import styled from "styled-components"
-import React from "react"
+import React, { useEffect } from "react"
 import { useNavigate} from "react-router-dom"
 import mindOrb from "../assets/mindOrb.png"
 
@@ -53,8 +53,8 @@ cursor:pointer;
 // splash screen page 
 const OnboardScreen=()=>{
     const navigate=useNavigate();
-    const handleOnboardBtn=(ev)=>{
-        ev.stopPropagation();
+
+    const handleBtnPress=async()=>{        
         navigate("/app")
     }
 
@@ -66,7 +66,7 @@ const OnboardScreen=()=>{
             </SplashLogoContainer>
             <BtnContainer>
                 <BtnTxt>Say your mind, emotions and secrets anonymously</BtnTxt>
-                <OnboardBtn onClick={()=>{handleOnboardBtn()}}>Say Your Mind.</OnboardBtn>
+                <OnboardBtn onClick={handleBtnPress}>Say Your Mind.</OnboardBtn>
             </BtnContainer>
         </Container>
     )

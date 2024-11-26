@@ -23,6 +23,7 @@ const SplashScreen=()=>{
         return ()=>clearInterval()
     },[])
 
+
     return(
         <Container>
             <img src={mindOrb}  />
