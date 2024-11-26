@@ -11,12 +11,13 @@ import { TbMessage2 } from "react-icons/tb";
 
 const Container=styled.div`
 color:var(--global-text-color);
-padding:25px;
+padding:20px;
 display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
-gap:30px;
+gap:5px;
+padding-left:100px;
 `;
 
 const PostProfilePics = styled.div`

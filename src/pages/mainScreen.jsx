@@ -23,7 +23,7 @@ position:sticky;
 const AppbarContent=styled.div`
 display:flex;
 align-items:center;
-gap:220px;
+gap:150px;
 `;
 
 const AppBarProfileContainer=styled.div`
