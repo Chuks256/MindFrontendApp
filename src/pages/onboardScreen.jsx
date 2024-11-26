@@ -49,8 +49,15 @@ cursor:pointer;
 `;
 
 
+
 // splash screen page 
 const OnboardScreen=()=>{
+    const navigate=useNavigate();
+    const handleOnboardBtn=(ev)=>{
+        ev.stopPropagation();
+        navigate("/app")
+    }
+
     return(
         <Container>
             <SplashLogoContainer>
@@ -59,7 +66,7 @@ const OnboardScreen=()=>{
             </SplashLogoContainer>
             <BtnContainer>
                 <BtnTxt>Say your mind, emotions and secrets anonymously</BtnTxt>
-                <OnboardBtn>Say Your Mind.</OnboardBtn>
+                <OnboardBtn onClick={()=>{handleOnboardBtn()}}>Say Your Mind.</OnboardBtn>
             </BtnContainer>
         </Container>
     )

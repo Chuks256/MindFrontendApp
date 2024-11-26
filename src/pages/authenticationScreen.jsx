@@ -3,12 +3,6 @@ import styled from "styled-components"
 import React from "react"
 import { useState } from "react"
 import { IoArrowBack } from "react-icons/io5";
-import { IoIosHeartEmpty } from "react-icons/io";
-import { IoIosHeart } from "react-icons/io";
-import { IoBookmarkOutline } from "react-icons/io5";
-import { IoBookmark } from "react-icons/io5";
-import { TbMessage2 } from "react-icons/tb";
-import { TbSettings2 } from "react-icons/tb";
 import { RiSearchFill } from "react-icons/ri";
 import { RiNotificationFill } from "react-icons/ri";
 import { TbPhotoBolt } from "react-icons/tb";
