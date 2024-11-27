@@ -18,8 +18,6 @@ background:var(--global-bg-color);
 align-items:center;
 justify-content:center;
 position:sticky;
-width:200px;
-margin-left:140px;
 `;
 
 const AppbarContent=styled.div`

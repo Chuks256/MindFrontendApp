@@ -37,7 +37,7 @@ padding:5px;
 // border-right-color:transparent;
 border-width:1px;
 justify-content:center;
-margin-left:60px;
+margin-left:20px;
 `;
 const PostProfileTxtContainer = styled.div`
 display:flex;
