@@ -30,11 +30,11 @@ const PostSubContainer =styled.div`
 display:flex;
 gap:3px;
 padding:5px;
-// border-style:solid;
-// border-top-color:transparent;
-// border-left-color:transparent;
-// border-bottom-color:#474747;
-// border-right-color:transparent;
+border-style:solid;
+border-top-color:transparent;
+border-left-color:transparent;
+border-bottom-color:#474747;
+border-right-color:transparent;
 border-width:1px;
 justify-content:center;
 margin-left:20px;
@@ -42,13 +42,13 @@ margin-left:20px;
 const PostProfileTxtContainer = styled.div`
 display:flex;
 flex-direction:column;
-line-height:8px;
+line-height:7px;
 `;
 const PostProfileName=styled.b`font-size:13px`;
 const PostProfileTimeStamp=styled.p`font-size:11px;`;
 const PostContentContainer=styled.p`
 font-size:11px;
-margin-top:-0.1px;
+margin-top:-8px;
 width:295px;
 text-align:left;
 `;
