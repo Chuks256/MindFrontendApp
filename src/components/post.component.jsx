@@ -16,7 +16,7 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
-gap:15px;
+gap:20px;
 `;
 
 const PostProfilePics = styled.div`
@@ -29,14 +29,14 @@ border-radius:100px;
 const PostSubContainer =styled.div`
 display:flex;
 gap:3px;
-padding:1px;
+padding:10px;
 border-style:solid;
 border-top-color:transparent;
 border-left-color:transparent;
 border-bottom-color:#474747;
 border-right-color:transparent;
 border-width:1px;
-width:345px;
+width:340px;
 justify-content:center;
 margin-left:50px;
 `;
