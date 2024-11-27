@@ -18,6 +18,7 @@ background:var(--global-bg-color);
 align-items:center;
 justify-content:center;
 position:sticky;
+margin-right:50px;
 `;
 
 const AppbarContent=styled.div`
