@@ -29,7 +29,7 @@ border-radius:100px;
 const PostSubContainer =styled.div`
 display:flex;
 gap:3px;
-padding:10px;
+padding:5px;
 border-style:solid;
 border-top-color:transparent;
 border-left-color:transparent;
@@ -38,7 +38,7 @@ border-right-color:transparent;
 border-width:1px;
 width:340px;
 justify-content:center;
-margin-left:50px;
+margin-left:0px;
 `;
 const PostProfileTxtContainer = styled.div`
 display:flex;
