@@ -38,6 +38,7 @@ border-right-color:transparent;
 border-width:1px;
 width:345px;
 justify-content:center;
+margin-left:50px;
 `;
 const PostProfileTxtContainer = styled.div`
 display:flex;

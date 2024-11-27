@@ -14,7 +14,7 @@ justify-content:center;
 const AppBarContainer =styled.div`
 color:var(--global-text-color);
 display:flex;
-// background:var(--global-bg-color);
+background:var(--global-bg-color);
 align-items:center;
 justify-content:center;
 position:sticky;
