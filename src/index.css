@@ -7,7 +7,6 @@
 *{
   font-family: "Mind-typeface";
   user-select: none;
-  max-zoom: 1.0;
   scroll-behavior: smooth;
 }
 
@@ -20,6 +19,7 @@
 
 body{
   background:var(--global-bg-color);
+  box-sizing: border-box;
 }
 
 button{
@@ -29,4 +29,10 @@ button{
 ::-webkit-scrollbar{
   width:10px;
   height:10px;
+}
+
+a{
+  color:var(--global-bg-color);
+  text-decoration:none;
+  font-weight:bold;
 }

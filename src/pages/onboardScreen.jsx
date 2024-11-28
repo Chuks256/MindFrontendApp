@@ -1,8 +1,8 @@
 
 import styled from "styled-components"
-import React, { useEffect } from "react"
 import { useNavigate} from "react-router-dom"
 import mindOrb from "../assets/mindOrb.png"
+import {Link} from "react-router-dom"
 
 const Container=styled.div`
 color:var(--global-text-color);
@@ -50,12 +50,13 @@ cursor:pointer;
 
 
 
+
 // splash screen page 
 const OnboardScreen=()=>{
-    const navigate=useNavigate();
+    const navigateScrn=useNavigate(); 
 
-    const handleBtnPress=async()=>{        
-        navigate("/app")
+    function handleBtnClick(){ 
+        navigateScrn("/app")
     }
 
     return(
@@ -66,7 +67,9 @@ const OnboardScreen=()=>{
             </SplashLogoContainer>
             <BtnContainer>
                 <BtnTxt>Say your mind, emotions and secrets anonymously</BtnTxt>
-                <OnboardBtn onClick={handleBtnPress}>Say Your Mind.</OnboardBtn>
+                <Link to="/app">
+                <OnboardBtn >
+                    Say Your Mind.</OnboardBtn></Link>
             </BtnContainer>
         </Container>
     )

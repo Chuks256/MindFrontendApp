@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <Routes>
-      <Route  path='/' element={<SplashScreen/>}  />
+      <Route exact  path='/' element={<SplashScreen/>}  />
       <Route  path='/onboard' element={<OnboardScreen />}  />
       <Route path='/app' element={<MainScreen/>}  />
       <Route  path='/newPost' element={<CreatePostScreen/>}  />

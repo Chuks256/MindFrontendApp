@@ -5,9 +5,7 @@ import { useState } from "react"
 import { IoIosHeartEmpty } from "react-icons/io";
 import { IoIosHeart } from "react-icons/io";
 import { IoBookmarkOutline } from "react-icons/io5";
-import { IoBookmark } from "react-icons/io5";
 import { TbMessage2 } from "react-icons/tb";
-
 
 const Container=styled.div`
 color:var(--global-text-color);

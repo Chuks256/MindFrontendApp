@@ -5,6 +5,8 @@ import { useState } from "react"
 import { TbSettings2 } from "react-icons/tb";
 import mindOrb from "../assets/mindOrb.png"
 import PostComponent from "../components/post.component";
+import { Link } from "react-router-dom";
+import BottomNavComponent from "../components/bottomNav.component";
 
 const Container=styled.div`
 display:flex;
@@ -48,7 +50,6 @@ height:70px;
 
 const MainScreen=()=>{
     
-
     return(
         <Container>
             <AppBarContainer>
@@ -66,8 +67,12 @@ const MainScreen=()=>{
 
                 {/* post componet section */}
                      <PostComponent />
-
                 {/* bottom nav section */}
+
+                {/* bottom navigation section beginging  */}
+                < BottomNavComponent>
+                </BottomNavComponent>
+                {/* bottom navigation ending  */}
         </Container>
     )
 }
