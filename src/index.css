@@ -15,6 +15,7 @@
   --global-bg-color:#131313;
   --global-text-color:ivory;
   --global-bg-shade-color:#1E1E1E;
+  --global-blur-color:rgba(30, 30, 30, 0.719);
 }
 
 body{
