@@ -35,7 +35,7 @@ display:flex;
 align-items:center;
 `;
 const AppBarTxtContainer = styled.div`
-line-height:10px;
+line-height:4px;
 `;
 const Greeting=styled.p`
 font-size:11px;
@@ -66,19 +66,28 @@ font-size:13px;
 `;
 
 const MainScreen=()=>{
-    
+    const [revealMindLogo,setMindLogo]=useState({display:"block"});
+
+    window.onscroll=(e)=>{
+        if(window.scrollY>0){
+            setMindLogo({display:"none"})
+        }
+        else{
+            setMindLogo({display:"block"})
+        }
+    }
     return(
         <Container>
             <AppBarContainer>
                 <AppbarContent>
                 <AppBarProfileContainer>
                 <OrbImg src={mindOrb}  />
-                <AppBarTxtContainer>
+                <AppBarTxtContainer style={{display:`${revealMindLogo.display}`}}>
                     <Greeting>Hey,</Greeting>
                     <ProfileName>JudeTheBoy</ProfileName>
                 </AppBarTxtContainer>
                 </AppBarProfileContainer>
-                <TbSettings2 style={{cursor:"pointer"}} size={25} />
+                <TbSettings2 style={{cursor:"pointer",display:`${revealMindLogo.display}`}} size={25} />
                 </AppbarContent>
                 </AppBarContainer>
                 {/* post componet section */}
