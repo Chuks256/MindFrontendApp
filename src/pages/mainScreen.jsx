@@ -28,6 +28,7 @@ const AppbarContent=styled.div`
 display:flex;
 align-items:center;
 gap:140px;
+justify-content:center;
 `;
 
 const AppBarProfileContainer=styled.div`
@@ -46,6 +47,9 @@ font-size:11px;
 const OrbImg=styled.img`
 width:70px;
 height:70px;
+display:flex;
+justify-content:center;
+align-items:center;
 `;
 
 const PostButton=styled.button `

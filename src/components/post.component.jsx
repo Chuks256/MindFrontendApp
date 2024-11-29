@@ -23,6 +23,7 @@ background:var(--global-bg-shade-color);
 width:10px;
 height:10px;
 border-radius:100px;
+margin-top:10px;
 `;
 const PostSubContainer =styled.div`
 display:flex;
@@ -34,11 +35,15 @@ margin-left:20px;
 `;
 const PostProfileTxtContainer = styled.div`
 display:flex;
-flex-direction:column;
+flex-direction:row;
+align-items:center;
+gap:6px;
 line-height:7px;
 `;
 const PostProfileName=styled.b`font-size:13px`;
-const PostProfileTimeStamp=styled.p`font-size:11px;`;
+const PostProfileTimeStamp=styled.p`font-size:10px;
+color:grey;
+`;
 const PostContentContainer=styled.p`
 font-size:11px;
 margin-top:-8px;
