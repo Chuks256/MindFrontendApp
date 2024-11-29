@@ -21,6 +21,7 @@ align-items:center;
 justify-content:center;
 position:sticky;
 margin-right:50px;
+top:0px;
 `;
 
 const AppbarContent=styled.div`
