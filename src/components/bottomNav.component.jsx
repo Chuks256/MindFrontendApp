@@ -24,7 +24,7 @@ padding:20px;
 justify-content:center;
 align-items:center;
 background:grey;
-width:290px;
+width:280px;
 background:var(--global-bg-color);
 backdrop-filter:blur(10px);
 `;

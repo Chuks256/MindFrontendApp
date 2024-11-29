@@ -59,7 +59,7 @@ top:500px;
 display:flex;
 align-items:center;
 justify-content:center;
-left:250px;
+left:220px;
 font-weight:bold;
 width:90px;
 height:45px;

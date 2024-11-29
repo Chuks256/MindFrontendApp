@@ -122,7 +122,40 @@ const PostComponent=()=>{
             timestamp:"10min ago",
             content:"Lorem ipsum oor thjzgvyxtjgbxtgxbtugrdn",
             media:"https://nvtovtnvjtnvtvntvn"   
-           }
+           },
+           {
+            id:'7',
+            profilePics:"https://ktnnjntvntvtv",
+            username:"Bridget",
+            timestamp:"6min ago",
+            content:"Lorem ipsum oor thjzgvyxtjgbxtgxbtugrdn",
+            media:''
+           },
+           {
+            id:'8',
+            profilePics:"https://ktnnjntvntvtv",
+            username:"Bridget",
+            timestamp:"6min ago",
+            content:"Lorem ipsum oor thjzgvyxtjgbxtgxbtugrdn",
+            media:''
+           },
+           {
+            id:'9',
+            profilePics:"https://ktnnjntvntvtv",
+            username:"Bridget",
+            timestamp:"6min ago",
+            content:"Lorem ipsum oor thjzgvyxtjgbxtgxbtugrdn",
+            media:''
+           },
+           ,
+           {
+            id:'10',
+            profilePics:"https://ktnnjntvntvtv",
+            username:"Angela",
+            timestamp:"10min ago",
+            content:"Lorem ipsum oor thjzgvyxtjgbxtgxbtugrdn",
+            media:"https://nvtovtnvjtnvtvntvn"   
+           },
     ]
 
     const [getHeartToggleState,setHeartToggleState]=useState(false);
