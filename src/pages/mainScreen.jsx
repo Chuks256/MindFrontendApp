@@ -1,6 +1,6 @@
 
 import styled from "styled-components"
-import React from "react"
+import React, { useEffect } from "react"
 import { useState } from "react"
 import { TbSettings2 } from "react-icons/tb";
 import mindOrb from "../assets/mindOrb.png"
@@ -47,6 +47,22 @@ width:70px;
 height:70px;
 `;
 
+const PostButton=styled.button `
+background:ivory;
+position:fixed;
+top:500px;
+display:flex;
+align-items:center;
+justify-content:center;
+left:250px;
+font-weight:bold;
+width:90px;
+height:45px;
+border-radius:10px;
+z-index:1;
+cursor:pointer;
+font-size:13px;
+`;
 
 const MainScreen=()=>{
     
@@ -64,15 +80,17 @@ const MainScreen=()=>{
                 <TbSettings2 style={{cursor:"pointer"}} size={25} />
                 </AppbarContent>
                 </AppBarContainer>
-
                 {/* post componet section */}
                      <PostComponent />
-                {/* bottom nav section */}
 
-                {/* bottom navigation section beginging  */}
-                < BottomNavComponent>
-                </BottomNavComponent>
-                {/* bottom navigation ending  */}
+                     {/* post button */}
+                     <PostButton>
+                        Post
+                     </PostButton>
+
+                {/* bottom nav section */}
+                <BottomNavComponent />
+              
         </Container>
     )
 }

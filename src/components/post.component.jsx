@@ -28,11 +28,6 @@ const PostSubContainer =styled.div`
 display:flex;
 gap:3px;
 padding:5px;
-border-style:solid;
-border-top-color:transparent;
-border-left-color:transparent;
-border-bottom-color:#474747;
-border-right-color:transparent;
 border-width:1px;
 justify-content:center;
 margin-left:20px;
